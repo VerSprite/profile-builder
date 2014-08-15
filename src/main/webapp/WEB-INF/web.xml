@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>JsonTest</servlet-name>
+  	<display-name>JsonTest</display-name>
+  	<description></description>
+  	<servlet-class>org.rotlogix.servlets.JsonTest</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Create</servlet-name>
+  	<display-name>Create</display-name>
+  	<description></description>
+  	<servlet-class>org.rotlogix.servlets.Create</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Validate</servlet-name>
+  	<display-name>Validate</display-name>
+  	<description></description>
+  	<servlet-class>org.rotlogix.servlets.Validate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>JsonTest</servlet-name>
+  	<url-pattern>/JsonTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Create</servlet-name>
+  	<url-pattern>/Create</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Validate</servlet-name>
+  	<url-pattern>/Validate</url-pattern>
+  </servlet-mapping>
+</web-app>
